@@ -9,12 +9,12 @@ local mouseLocation = UIS.GetMouseLocation
         Title = "〰 Script By 917Dream 〰";
         Text = "〰 My Discord Name : _offlineplayer_ 〰";
         Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-    Duration = 5;
+    Duration = 2;
 
 local DeleteMob ={
     GUi = {
-        OpenNCloseButton = true; -- Have A Button For It
-        KeybindEnable = false; -- If You Want A Bind For The Menu
+        OpenNCloseButton = false; -- Have A Button For It
+        KeybindEnable = true; -- If You Want A Bind For The Menu
         Keybind = "z"; -- Menu Key Bind
     };
 	Aimbot= {
@@ -77,10 +77,10 @@ local FOVFFrame = Instance.new("Frame")FOVFFrame.Parent = Fov FOVFFrame.Name = "
 local UICorner = Instance.new("UICorner")UICorner.CornerRadius = UDim.new(1, 0) UICorner.Parent = FOVFFrame -- Made By 917Dream (_offlineplayer_)
 local UIStroke = Instance.new("UIStroke")UIStroke.Color = Color3.fromRGB(100,0,100) UIStroke.Parent = FOVFFrame UIStroke.Thickness = 1 UIStroke.ApplyStrokeMode = "Border" 
     game:GetService("StarterGui"):SetCore("SendNotification", { 
-        Title = "〰 ESP Script Loaded! 〰";
+        Title = "〰 ESP And Aimbot Script Loaded! 〰";
         Text = "〰 Enjoy :) 〰";
         Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
-    Duration = 5;
+    Duration = 2;
 local BoxC = Instance.new("ScreenGui", game.Workspace) BoxC.Name = "Box"
 local Higlight = Instance.new("ScreenGui",game.Workspace)
 local connections = {}
@@ -594,7 +594,7 @@ Name.BorderSizePixel = 0
 Name.Position = UDim2.new(0.0178597774, 0, 0.00456260797, 0)
 Name.Size = UDim2.new(0, 200, 0, 31)
 Name.Font = Enum.Font.Gotham
-Name.Text = "DeleteMob | Cheat Engine"
+Name.Text = "ESP And Aimbot Script"
 Name.TextColor3 = Color3.fromRGB(17, 223, 255)
 Name.TextSize = 19.000
 
@@ -1450,7 +1450,7 @@ TextLabel_14.BorderSizePixel = 0
 TextLabel_14.Position = UDim2.new(0.215919182, 0, 0.100655407, 0)
 TextLabel_14.Size = UDim2.new(0, 100, 0, 17)
 TextLabel_14.Font = Enum.Font.Gotham
-TextLabel_14.Text = "Coming Soon"
+TextLabel_14.Text = "Press Z To Hide GUI"
 TextLabel_14.TextColor3 = Color3.fromRGB(17, 223, 255)
 TextLabel_14.TextSize = 18.000
 
